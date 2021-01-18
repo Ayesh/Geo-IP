@@ -9,7 +9,7 @@ class GeoIPLookup {
     }
 
     public static function createFromDefaultDatabase(): self {
-        return new static(__DIR__ . '/../../Geo-IP-Database/data');
+        return new static(__DIR__ . '/../../geo-ip-database/data');
     }
 
     public function lookup(string $ip_address): ?string {
