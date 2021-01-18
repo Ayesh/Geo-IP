@@ -1,0 +1,21 @@
+{
+    "name": "ayesh/geo-ip",
+    "description": "Fast IP to country lookup based on Maxmind Lite database, with no requirement for extension or binary database",
+    "type": "library",
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "ayesh/geo-ip-database": "^1.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ayesh\\GeoIP\\": "src/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ayesh Karunaratne",
+            "email": "ayesh@aye.sh"
+        }
+    ]
+}
